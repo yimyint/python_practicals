@@ -1,4 +1,5 @@
 def main():
+    #calculate bmi according to individual weight
     for weight in range(50,101,2):
          bmi = calculate_bmi(1.75, weight)
          category = determine_weight_category(bmi)
